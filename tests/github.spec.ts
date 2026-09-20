@@ -44,6 +44,18 @@ In terminal provide the below command in same manner::
 9. git push 
     here you might see error for first time with suggested command 
     copy the command and push it 
-    
+    git push --set-upstream origin TestLogin
+
+*/
+
+// Create the PR:: 
+/*
+After the changes are push to the branch , open the github. 
+1. Goto repository >> click on pull request 
+2. Open the new PR
+3. Provide all the mandatory details like reviewer, assignee etc
+4. Click on Pull Request. 
+5. If there is any review comment work on it and create new PR
+
 
 */
