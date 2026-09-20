@@ -16,11 +16,34 @@ Gitlab is a web based devops tool , that helps in version control.
 
 ** Assume there is no account created in the github ::
 1. Login to github. 
-2. Create the brach.repository in the github. 
-3. 
+2. Create the branch.repository in the github. 
+In terminal provide the below command in same manner:: 
+>> git init
+>> git add .
+>> git commit -m "First message"
+>> git branch -M main
+>> git remote add origin <rporistory URL>
+>> git push -u origin
 
-
-
-
+// When repo is already created in the github. 
+1. Clone the repository inside your local system 
+    git clone <repositoryUrl>
+    git clone https://github.com/roy95robin/NITWEENENDREPO.git
+2. After clone is done, install the below details 
+    npm install
+    npm init playwright
+3. Now make some changes to the code inside the local branch. 
+ create the local branch
+    git checkout -b TestLogin
+4. verify which branch you're in 
+    git branch
+5. Make changes to the local file and push the changes 
+6. git status 
+7. git add . 
+8. git commit -m "new changes"
+9. git push 
+    here you might see error for first time with suggested command 
+    copy the command and push it 
+    
 
 */
